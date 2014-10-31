@@ -61,16 +61,15 @@ Závislosti
 
 ## Cíl DevAssistantu
 
-Nastavení prostředí
+(Jednotné) nastavení prostředí
 
 Automatizace
-
-Jednotné nastavení
 
 Sdílení prostředí v týmu (Docker)
 
 "Magie" 1 kliknutím
 
+Publikování kódu
 
 
 ## Cílová skupina
@@ -125,9 +124,9 @@ Nezávislé na skriptech
 
 ## Příkazová řádka
 
-```
-    da create python flask --name MyFlaskApp --venv --github
-```
+<span style="font-family: Aurulent Sans Mono; background-color: #EEEEEE">
+    da create python flask --name MyApp --venv
+<span>
 
 
 
