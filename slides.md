@@ -85,32 +85,29 @@ Týmy - unifikované prostředí
 
 ## Architektura
 
-**Jádro**
+**Jádro** - GUI, příkazová řádka
 
 <!-- .element: class="fragment" -->
 *vyvíjíme my*
 
 <!-- .element: class="fragment" -->
-**Skripty** 
+**Skripty** - Assistanty, Snippety
 
 <!-- .element: class="fragment" -->
 *vyvíjí komunita*
 
 <!-- .element: class="fragment" -->
-**Index** 
-
-<!-- .element: class="fragment" -->
-*server se skripty*
+**Index** - Server se skripty
 
 
 
 ## Jádro
 
-Python 2 + 3
+**<span style="color: #008A7A">Python</span>** 2 + 3
 
 Nezávislé na skriptech
 
-GUI + Příkazová řádka
+1 skript funguje v GUI i v příkazové řádce
 
 
 
@@ -209,20 +206,20 @@ Stažení kódu a příprava prostředí
 
 
 
-## Pro uživatele
+## Děkuji za pozornost
+
+&nbsp;
+
+#### Pro uživatele
 
 ![DA](./images/da.png) <https://www.devassistant.org>
 
+**Index** <https://dapi.devassistant.org>
 
+&nbsp;
 
-## Pro vývojáře
+#### Pro vývojáře
 
 ![ReadTheDocs](./images/rtd.png) <http://docs.devassistant.org>
 
 ![GitHub](./images/github.png) <https://www.github.com/devassistant>
-
-
-
-# Děkuji za<br />pozornost
-
-Otázky, komentáře, nápady
