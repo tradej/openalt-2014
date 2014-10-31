@@ -67,6 +67,8 @@ Automatizace
 
 Jednotné nastavení
 
+Sdílení prostředí v týmu (Docker)
+
 "Magie" 1 kliknutím
 
 
@@ -101,19 +103,45 @@ Týmy - unifikované prostředí
 *server se skripty*
 
 
+
 ## Jádro
 
 Python 2 + 3
 
 Nezávislé na skriptech
 
+GUI + Příkazová řádka
 
 
-## Skripty
 
-* **Assistant** - Vlastní skript
-* **Snippet** - Pomocné funkce, argumenty
-* **Ostatní** - Archivy, kód, šablony
+## GUI
+
+![GUI](./images/gui.png)
+
+
+
+## GUI II.
+
+![GUI](./images/gui2.png)
+
+
+
+## Příkazová řádka
+
+```
+    da create python flask --name MyFlaskApp --venv --github
+```
+
+
+
+## Skripty (Assistanty)
+
+**YAML** - značkovací jazyk
+
+**PingPong** - komunikace s ostatními jazyky
+
+<!-- .element: class="fragment" -->
+(nyní pouze **<span style="color: #008A7A">Python</span>**)
 
 
 
@@ -124,3 +152,77 @@ DevAssistant Package Index **(DAPI)**
 Členové komunity nahrávají balíky se skripty
 
 Odsud stahujete nové balíky
+
+
+
+## Integrace (GitHub)
+
+Vytváření repozitářů
+
+Fork
+
+Push
+
+
+
+## Integrace (<span style="color: navy">Fedora</span>)
+
+Bash completion
+
+Infrastruktura, COPR (v budoucnu)
+
+
+
+## Docker
+
+Vytvoření vývojového prostředí v kontejneru
+
+Sdílení prostředí v týmu (každý dostane stejný Assistant)
+
+Build image pro deployment
+
+
+
+## Ukázka I. (Nový projekt)
+
+**Flask** - Webový framework v **<span style="color: #008A7A">Python</span>**u
+
+Obsahuje webserver
+
+Vyžaduje závislosti, pevnou adresářovou strukturu
+
+
+
+## Ukázka II. (Existující kód)
+
+Vytvoření repozitáře na **GitHub**u
+
+Push existujícího kódu
+
+
+
+## Ukázka III. (Fork na GitHubu)
+
+Fork existujícího repozitáře na GitHubu
+
+Stažení kódu a příprava prostředí
+
+
+
+## Pro uživatele
+
+![DA](./images/da.png) <https://www.devassistant.org>
+
+
+
+## Pro vývojáře
+
+![ReadTheDocs](./images/rtd.png) <http://docs.devassistant.org>
+
+![GitHub](./images/github.png) <https://www.github.com/devassistant>
+
+
+
+# Děkuji za<br />pozornost
+
+Otázky, komentáře, nápady
