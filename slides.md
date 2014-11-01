@@ -10,9 +10,9 @@ Tomáš Raděj, ![Twitter logo](./images/twitter.png) [@tomasradej](http://twitt
 
 Tomáš Raděj, Brno
 
-**3 roky** *Fedora + Red Hat*
+**3 roky** *<span style="color:navy">Fedora</span> + <span style="color: #880000">Red Hat</span>*
 
-**2 roky** *Python*
+**2 roky** *<span style="color: #008A7A">Python</span>*
 
 **1 rok** *DevAssistant*
 
@@ -22,7 +22,7 @@ Tomáš Raděj, Brno
 
 ~ 2 roky ve vývoji
 
-Napsán v Pythonu
+Napsán v **<span style="color: #008A7A">Python</span>**u
 
 Příkazová řádka + GUI
 
@@ -65,11 +65,13 @@ Závislosti
 
 Automatizace
 
-Sdílení prostředí v týmu (Docker)
+Publikování kódu (<span style="color: #770000">GitHub</span>)
 
-"Magie" 1 kliknutím
+Sdílení prostředí v týmu (<span style="color: #0055BB">Docker</span>)
 
-Publikování kódu
+1 kliknutí / 1 příkaz
+
+
 
 
 ## Cílová skupina
@@ -110,6 +112,31 @@ Nezávislé na skriptech
 
 
 
+## Skripty (Assistanty)
+
+4 druhy - **Create - Tweak - Prepare - Extras**
+
+**YAML** - značkovací jazyk
+
+**PingPong** - komunikace s ostatními jazyky
+
+<!-- .element: class="fragment" -->
+(nyní pouze **<span style="color: #008A7A">Python</span>**)
+
+
+
+## Index
+
+DevAssistant Package Index **(DAPI)**
+
+Členové komunity nahrávají balíky se skripty
+
+Odsud stahujete nové balíky
+
+Hodnocení uživateli
+
+
+
 ## GUI
 
 ![GUI](./images/gui.png)
@@ -130,28 +157,7 @@ Nezávislé na skriptech
 
 
 
-## Skripty (Assistanty)
-
-**YAML** - značkovací jazyk
-
-**PingPong** - komunikace s ostatními jazyky
-
-<!-- .element: class="fragment" -->
-(nyní pouze **<span style="color: #008A7A">Python</span>**)
-
-
-
-## Index
-
-DevAssistant Package Index **(DAPI)**
-
-Členové komunity nahrávají balíky se skripty
-
-Odsud stahujete nové balíky
-
-
-
-## Integrace (GitHub)
+## Integrace (<span style="color: #770000">GitHub</span>)
 
 Vytváření repozitářů
 
@@ -169,7 +175,7 @@ Infrastruktura, COPR (v budoucnu)
 
 
 
-## Docker
+## Integrace (<span style="color: #0055BB">Docker</span>)
 
 Vytvoření vývojového prostředí v kontejneru
 
@@ -191,15 +197,15 @@ Vyžaduje závislosti, pevnou adresářovou strukturu
 
 ## Ukázka II. (Existující kód)
 
-Vytvoření repozitáře na **GitHub**u
+Vytvoření repozitáře na **<span style="color: #770000">GitHub</span>**u
 
 Push existujícího kódu
 
 
 
-## Ukázka III. (Fork na GitHubu)
+## Ukázka III. (Fork na <span style="color: #770000">GitHub</span>u)
 
-Fork existujícího repozitáře na GitHubu
+Fork existujícího repozitáře
 
 Stažení kódu a příprava prostředí
 
@@ -222,3 +228,7 @@ Stažení kódu a příprava prostředí
 ![ReadTheDocs](./images/rtd.png) <http://docs.devassistant.org>
 
 ![GitHub](./images/github.png) <https://www.github.com/devassistant>
+
+&nbsp;
+
+<small>Prezentace vytvořena pomocí **reveal.js**, ke stažení na <https://www.github.com/tradej/openalt-2014></small>
